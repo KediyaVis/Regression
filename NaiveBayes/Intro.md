@@ -79,6 +79,18 @@ Conditional probabilities:
 - P("Win" | Not Spam) = 1 / 10 = 0.1  
 - P("Hello" | Not Spam) = 7 / 10 = 0.7
 
+```mermaid
+flowchart TD
+  E[Email]
+  E --> S[Spam (0.5)]
+  E --> N[Not Spam (0.5)]
+  S --> SW["Win (0.8)"]
+  S --> SH["Hello (0.2)"]
+  N --> NW["Win (0.1)"]
+  N --> NH["Hello (0.7)"]
+```
+
+
 ```text
 [Email]
 ├─ Spam (0.5)
