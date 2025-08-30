@@ -55,7 +55,7 @@
 
  **Mini Exercise:**  
 - *If you saw the word “Free” in an email, would you consider it spammy? Why?*  
-
+- *Congratulations, you won a prize!* — Spam or Not Spam?
 ---
 
 ## 5. Transition to Next Section 
