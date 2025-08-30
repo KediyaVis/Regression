@@ -67,19 +67,18 @@ Suppose we have the following dataset:
 
 ### Case: New email → "Win Hello"
 
-- For Spam:  
-$$
-P(Spam | Win, Hello) \propto P(Spam) \cdot P(Win|Spam) \cdot P(Hello|Spam)
-$$
+- For Spam:
+  
+P(Spam | Win, Hello) ∝ P(Spam) · P(Win|Spam) · P(Hello|Spam)
 
 $$
 = 0.5 \times 0.8 \times 0.2 = 0.08
 $$
 
 - For Not Spam:  
-$$
-P(NotSpam | Win, Hello) \propto P(NotSpam) \cdot P(Win|NotSpam) \cdot P(Hello|NotSpam)
-$$ 
+P(NotSpam | Win, Hello) ∝ P(NotSpam) · P(Win|NotSpam) · P(Hello|NotSpam)
+
+
 $$
 = 0.5 \times 0.1 \times 0.7 = 0.035
 $$
