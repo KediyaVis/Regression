@@ -79,13 +79,15 @@ Conditional probabilities:
 - P("Win" | Not Spam) = 1 / 10 = 0.1  
 - P("Hello" | Not Spam) = 7 / 10 = 0.7
 
-              [Email]
-           /       \
-       Spam         Not Spam
-      (0.5)           (0.5)
-     /     \         /     \
-    "Win"   "Hello" "Win"   "Hello"
-     0.8      0.2    0.1      0.7
+```text
+[Email]
+├─ Spam (0.5)
+│  ├─ "Win"    0.8
+│  └─ "Hello"  0.2
+└─ Not Spam (0.5)
+   ├─ "Win"    0.1
+   └─ "Hello"  0.7
+```
 
 ---
 
