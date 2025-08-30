@@ -1,4 +1,4 @@
-# Part 1: Introduction & Intuition (30 min)
+# Introduction & Intuition
 
 ---
 
