@@ -68,6 +68,7 @@ $$
 This emphasizes *important* words and down-weights common fillers.
 
 **Example**
+
   -Doc1: "The cat sat on the mat"
   
   -Doc2: "The dog played in the park"
