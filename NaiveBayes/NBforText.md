@@ -68,12 +68,16 @@ Doc3: "Cats and dogs are great pets"
   - "cat" appears 0 times → TF = 0  
 
 - Doc3: "a cat and a dog" → 6 words  
-  - "cat" appears 1 time → TF = 1/6 ≈ 0.167  
+  - "cat" appears 1 time → TF = 1/6 ≈ 0.167
+ 
+    
 
 **IDF for term "cat":**
 
 - "cat" appears in **Doc1** and **Doc3** → 2 out of 3 documents  
 - IDF("cat") = log(3 / 2) ≈ 0.176
+
+
 
 **Scores for "cat":**
 
