@@ -48,6 +48,19 @@ Vocabulary = {Win, money, now, Hello, friend}
 
 Final Weight = `TF * IDF`  
 
+**TF Formula:**
+
+$$
+TF(t, d) = \frac{\text{Number of times term t appears in document d}}{\text{Total number of terms in document d}}
+$$
+
+**IDF Formula:**
+
+$$
+IDF(t, D) = \log \left( \frac{\text{Total number of documents}}{\text{Number of documents containing term t}} \right)
+$$
+
+
 **Example:**  
 - Word = "money" → rare in corpus → high weight  
 - Word = "the" → very common → low weight  
