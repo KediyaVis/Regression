@@ -25,7 +25,7 @@ $$
 - **Likelihood**: \( P(B|A) \) → probability of seeing evidence if hypothesis is true.  
 - **Evidence**: \( P(B) \) → total probability of evidence.  
 
-👉 **Analogy:**  
+ **Analogy:**  
 - Hypothesis: *The email is Spam.*  
 - Evidence: *The word "Win" appears.*  
 - Bayes’ theorem tells us: *Given "Win," how likely is Spam?*
@@ -57,8 +57,10 @@ $$
 
 Suppose we have the following dataset:
 
-- **P(Spam) = 0.5**, **P(Not Spam) = 0.5**  
-- P("Win" | Spam) = 0.8, P("Win" | Not Spam) = 0.1  
+- **P(Spam) = 0.5**, **P(Not Spam) = 0.5**
+- 
+- P("Win" | Spam) = 0.8, P("Win" | Not Spam) = 0.1
+- 
 - P("Hello" | Spam) = 0.2, P("Hello" | Not Spam) = 0.7  
 
 ---
