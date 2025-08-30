@@ -2,7 +2,7 @@
 
 ---
 
-## 1. Warm-up Discussion (5 min)
+## 1. Warm-up Discussion 
 
 - How do we decide if an email is *spam* or *not spam*?  
 - What clues (words, sender, subject line) do we usually look for?  
@@ -10,7 +10,7 @@
 
 ---
 
-## 2. What is Naïve Bayes? (10 min)
+## 2. What is Naïve Bayes? 
 
 - **Naïve Bayes** is a **probabilistic classifier**.  
 - It is based on **Bayes’ Theorem** (probability of an event given prior knowledge).  
@@ -22,7 +22,7 @@
 
 ---
 
-## 3. Real-world Applications (5 min)
+## 3. Real-world Applications 
 
 -  **Spam Detection**: Identify spam emails.  
 -  **Sentiment Analysis**: Predict if a review is positive or negative.  
@@ -34,7 +34,7 @@
 
 ---
 
-## 4. Intuition with a Simple Example (7 min)
+## 4. Intuition with a Simple Example 
 
 **Sentence:**  
 *"Win money now"*  
@@ -58,7 +58,7 @@
 
 ---
 
-## 5. Transition to Next Section (3 min)
+## 5. Transition to Next Section 
 
 - So far, we’ve seen **intuition and examples**.  
 - But how does Naïve Bayes actually **calculate probabilities**?  
