@@ -70,7 +70,8 @@ Suppose we have the following dataset:
 - For Spam:  
 $$
 P(Spam | Win, Hello) \propto P(Spam) \cdot P(Win|Spam) \cdot P(Hello|Spam)
-$$  
+$$
+
 $$
 = 0.5 \times 0.8 \times 0.2 = 0.08
 $$
