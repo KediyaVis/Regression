@@ -114,3 +114,12 @@ flowchart TD
 - Next, we’ll dive into the **mathematics** behind it.  
 
 ---
+
+```text
+[Email]
+├─ Spam (0.5)
+│  ├─ "Win"    0.8
+│  └─ "Hello"  0.2
+└─ Not Spam (0.5)
+   ├─ "Win"    0.1
+   └─ "Hello"  0.7
