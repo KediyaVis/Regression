@@ -66,3 +66,47 @@ This emphasizes *important* words and down-weights common fillers.
 **Formulation in text context:**  
 We want to compute:
 
+P(Class | Words) ∝ P(Class) * P(word1|Class) * P(word2|Class) * ...
+
+
+- **Prior:** Probability of each class (e.g., spam vs not spam).  
+- **Likelihood:** Estimated from word frequencies (using Count/TF-IDF vectors).  
+
+---
+
+## 5. Practical Implementation Notes (5 min)
+
+In scikit-learn:
+- `CountVectorizer` → converts text to Bag of Words  
+- `TfidfVectorizer` → converts text to TF-IDF  
+- Naïve Bayes classifiers:  
+  - `MultinomialNB` → works well for counts and TF-IDF  
+  - `BernoulliNB` → good for binary presence/absence of words  
+
+**Workflow:**
+1. Collect documents and labels  
+2. Preprocess text (lowercase, remove punctuation, stopwords, etc.)  
+3. Vectorize using CountVectorizer or TfidfVectorizer  
+4. Train Naïve Bayes model (`MultinomialNB`)  
+5. Predict class of new text  
+
+---
+
+## 6. Example Code Snippet (Python)
+
+```python
+from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.pipeline import make_pipeline
+
+# Sample data
+docs = ["Win money now", "Hello friend", "Claim your prize", "Hello again"]
+labels = ["spam", "ham", "spam", "ham"]
+
+# Pipeline with TF-IDF + Naïve Bayes
+model = make_pipeline(TfidfVectorizer(), MultinomialNB())
+model.fit(docs, labels)
+
+# Test prediction
+print(model.predict(["Win a prize now!"]))
+
