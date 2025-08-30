@@ -54,6 +54,38 @@ Final Weight = `TF * IDF`
 
 This emphasizes *important* words and down-weights common fillers.
 
+**Example**
+Doc1: "The cat sat on the mat"
+Doc2: "The dog played in the park"
+Doc3: "Cats and dogs are great pets"
+
+**TF for term "cat":**
+
+- Doc1: "the cat sat on the mat" → 6 words  
+  - "cat" appears 1 time → TF = 1/6 ≈ 0.167  
+
+- Doc2: "the dog barked loudly" → 4 words  
+  - "cat" appears 0 times → TF = 0  
+
+- Doc3: "a cat and a dog" → 6 words  
+  - "cat" appears 1 time → TF = 1/6 ≈ 0.167  
+
+**IDF for term "cat":**
+
+- "cat" appears in **Doc1** and **Doc3** → 2 out of 3 documents  
+- IDF("cat") = log(3 / 2) ≈ 0.176
+
+**Scores for "cat":**
+
+- Doc1: 0.167 × 0.176 ≈ 0.029  
+- Doc2: 0 × 0.176 = 0  
+- Doc3: 0.167 × 0.176 ≈ 0.029
+
+
+- Why does "cat" get the same TF-IDF score in Doc1 and Doc3,  
+  even though Doc3 might use a variant like **"cats"**?  
+---
+
 ---
 
 ## 4. Naïve Bayes for Text (10 min)
