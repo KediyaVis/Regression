@@ -16,9 +16,9 @@ Now let’s dig deeper: **How does Bayes’ Theorem help in classification?**
 
 ## 2. Bayes’ Theorem Refresher (5 min)
 
-\[
+$$
 P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
-\]
+$$
 
 - **Posterior**: \( P(A|B) \) → probability of hypothesis after seeing evidence.  
 - **Prior**: \( P(A) \) → initial belief before evidence.  
@@ -36,18 +36,18 @@ P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}
 
 General formula for a class \(C\) and features \(x_1, x_2, \dots, x_n\):
 
-\[
+$$
 P(C | x_1, x_2, \dots, x_n) = \frac{P(C) \cdot P(x_1, x_2, \dots, x_n | C)}{P(x_1, x_2, \dots, x_n)}
-\]
+$$
 
 - Numerator = Prior × Likelihood  
 - Denominator = Evidence (normalizes across classes)  
 
 Since Evidence is constant across classes, we can compare:
 
-\[
+$$
 P(C | x_1, x_2, \dots, x_n) \propto P(C) \prod_{i=1}^{n} P(x_i|C)
-\]
+$$
 
 👉 This is the heart of **Naïve Bayes classification**.
 
@@ -66,22 +66,22 @@ Suppose we have the following dataset:
 ### Case: New email → "Win Hello"
 
 - For Spam:  
-\[
+$$
 P(Spam | Win, Hello) \propto P(Spam) \cdot P(Win|Spam) \cdot P(Hello|Spam)
-\]  
-\[
+$$  
+$$
 = 0.5 \times 0.8 \times 0.2 = 0.08
-\]
+$$
 
 - For Not Spam:  
-\[
+$$
 P(NotSpam | Win, Hello) \propto P(NotSpam) \cdot P(Win|NotSpam) \cdot P(Hello|NotSpam)
-\]  
-\[
+$$ 
+$$
 = 0.5 \times 0.1 \times 0.7 = 0.035
-\]
+$$
 
-👉 Since **0.08 > 0.035**, classify as **Spam**.
+ Since **0.08 > 0.035**, classify as **Spam**.
 
 ---
 
