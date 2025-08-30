@@ -44,7 +44,7 @@
 
 **Table Example:**  
 
-| Word   | P(word | spam) | P(word | not spam) |
+| Word   | P(word \| spam) | P(word \| not spam) |
 |--------|----------------|-------------------|
 | Win    | 0.8            | 0.1               |
 | Money  | 0.7            | 0.2               |
