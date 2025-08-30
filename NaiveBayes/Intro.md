@@ -4,7 +4,6 @@
 
 ## 1. Warm-up Discussion (5 min)
 
-**Question to Students:**  
 - How do we decide if an email is *spam* or *not spam*?  
 - What clues (words, sender, subject line) do we usually look for?  
 
@@ -31,8 +30,7 @@
 -  **Document Classification**: Classify news articles, emails, etc.  
 
  **Class Activity:**  
-- Ask students: *Which of these applications do you encounter daily?*  
-- Quick show of hands for spam filtering, movie reviews, etc.  
+- *Which of these applications do you encounter daily?*  
 
 ---
 
@@ -56,7 +54,7 @@
 - Each word contributes **independently** to the final decision.  
 
  **Mini Exercise:**  
-- Ask students: *If you saw the word “Free” in an email, would you consider it spammy? Why?*  
+- *If you saw the word “Free” in an email, would you consider it spammy? Why?*  
 
 ---
 
