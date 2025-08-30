@@ -84,8 +84,8 @@ Conditional probabilities:
        Spam         Not Spam
       (0.5)           (0.5)
      /     \         /     \
- "Win"   "Hello" "Win"   "Hello"
- 0.8      0.2    0.1      0.7
+    "Win"   "Hello" "Win"   "Hello"
+     0.8      0.2    0.1      0.7
 
 ---
 
