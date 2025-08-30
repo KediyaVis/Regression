@@ -57,10 +57,10 @@
 - *If you saw the word “Free” in an email, would you consider it spammy? Why?*  
 - *Congratulations, you won a prize!* — Spam or Not Spam?
 - Similarily, what do you think about
-    “Free vacation now”
-    “Meeting tomorrow at 10am”
-    “Claim your prize”
-    “Project update attached”
+   - “Free vacation now”
+   - “Meeting tomorrow at 10am”
+   - “Claim your prize”
+   - “Project update attached”
   
 ---
 
