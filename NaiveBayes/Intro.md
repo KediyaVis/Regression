@@ -45,12 +45,10 @@
 **Table Example:**  
 
 | Word   | P(word | spam) | P(word | not spam) |
-
-|--------|---------|-----------------|
-
-| Win    | 0.8     | 0.1             |
-| Money  | 0.7     | 0.2             |
-| Hello  | 0.2     | 0.7             |
+|--------|----------------|-------------------|
+| Win    | 0.8            | 0.1               |
+| Money  | 0.7            | 0.2               |
+| Hello  | 0.2            | 0.7               |
 
 - For *"Win money now"*, Naïve Bayes combines these probabilities.  
 - Each word contributes **independently** to the final decision.  
