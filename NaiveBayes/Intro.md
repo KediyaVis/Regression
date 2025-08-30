@@ -61,7 +61,36 @@
    - “Meeting tomorrow at 10am”
    - “Claim your prize”
    - “Project update attached”
-  
+
+## Visual Intuition: Probability Tree
+
+Let’s build a simple example with a **tiny dataset** of emails:
+
+- 10 spam emails, 8 contain "Win", 2 contain "Hello"  
+- 10 not-spam emails, 1 contains "Win", 7 contain "Hello"  
+
+So:  
+- P(Spam) = 10 / 20 = 0.5  
+- P(Not Spam) = 10 / 20 = 0.5  
+
+Conditional probabilities:  
+- P("Win" | Spam) = 8 / 10 = 0.8  
+- P("Hello" | Spam) = 2 / 10 = 0.2  
+- P("Win" | Not Spam) = 1 / 10 = 0.1  
+- P("Hello" | Not Spam) = 7 / 10 = 0.7
+
+              [Email]
+           /       \
+       Spam         Not Spam
+      (0.5)           (0.5)
+     /     \         /     \
+ "Win"   "Hello" "Win"   "Hello"
+ 0.8      0.2    0.1      0.7
+
+---
+
+### Probability Tree
+
 ---
 
 ## 5. Transition to Next Section 
