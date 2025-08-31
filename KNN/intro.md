@@ -6,6 +6,7 @@
   1. Storing all training data.
   2. When a new data point comes in, finding the **K closest training samples** (neighbors).
   3. Predicting the label based on the **majority vote** (classification) or average (regression).
+<img width="1390" height="790" alt="image" src="https://github.com/user-attachments/assets/148738b7-7dd0-40fd-8dfd-7f9eafc3a182" />
 
 ---
 
