@@ -2,14 +2,14 @@
 
 ## 1. Setup
 We have a dataset with `n` samples and `d` features:
-\[
+$$
 X \in \mathbb{R}^{n \times d}
-\]
+$$
 
 👉 First, center the data (subtract mean from each feature):
-\[
+$$
 X_{centered} = X - \mu
-\]
+$$
 
 ---
 
