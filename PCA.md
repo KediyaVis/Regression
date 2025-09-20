@@ -1,4 +1,4 @@
-# 📊 Principal Component Analysis (PCA) – Math & Intuition
+# Principal Component Analysis (PCA) – Math & Intuition
 
 ## 1. Setup
 We have a dataset with `n` samples and `d` features:
@@ -7,7 +7,7 @@ $$
 X \in \mathbb{R}^{n \times d}
 $$
 
-👉 First, center the data (subtract mean from each feature):
+First, center the data (subtract mean from each feature):
 
 $$
 X_{centered} = X - \mu
@@ -57,7 +57,7 @@ $$
 - **Eigenvector** = direction (principal component axis)  
 - **Eigenvalue** = variance (spread) along that direction  
 
-📌 In 2D: If you draw an ellipse around the data cloud,  
+In 2D: If you draw an ellipse around the data cloud,  
 - The **axes of the ellipse** = eigenvectors  
 - The **lengths of the ellipse’s semi-axes** = \( \sqrt{\lambda_1}, \sqrt{\lambda_2} \)
 
@@ -99,7 +99,7 @@ This helps decide **how many components to keep**.
 
 ---
 
-# ✅ Summary
+# Summary
 1. Center data  
 2. Compute covariance matrix  
 3. Find eigenvectors & eigenvalues  
