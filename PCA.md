@@ -106,3 +106,6 @@ This helps decide **how many components to keep**.
 4. Eigenvectors = directions of max variance  
 5. Eigenvalues = variance along those directions  
 6. Keep top-k components → reduced representation
+
+<img width="1228" height="1255" alt="image" src="https://github.com/user-attachments/assets/a55a0229-0aac-42f0-b94a-ce04749315d9" />
+
